@@ -1,0 +1,109 @@
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* .table {
+    width: 80%;
+    margin: 10px 10px;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 16px;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+  }
+   */
+
+  .table {
+    width: 80%;
+    max-width: 800px; /* Adjust max-width as per your design */
+    margin: 10px auto; /* Center the table horizontally with margin on top and bottom */
+    border-collapse: collapse;
+    border: 2px solid #333; /* Dark border around the table */
+  }
+  
+  .table th, .table td {
+    padding: 12px;
+    border: 1px solid #ddd; /* Light border for table cells */
+    text-align: left;
+    font-size: 16px;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+  }
+  .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn {
+    padding: 8px 12px; /* Reduced padding to make buttons smaller */
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-warning {
+    background-color: #ffc107;
+    border: none;
+    color: #fff;
+  }
+
+  .btn-warning:hover {
+    background-color: #e0a800;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border: none;
+    color: #fff;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+  }
+  
+  .btn-primary {
+    display: block;
+    width: 100%;
+    max-width: 200px; /* Set a maximum width to control the button's size */
+    margin: 20px auto; /* Center the button horizontally and provide margin */
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+  }
+
+
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
